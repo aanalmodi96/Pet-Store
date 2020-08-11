@@ -1,0 +1,121 @@
+
+body{
+    position : relative;
+    bottom:5px;
+    background-color: #FFFFFF;
+    font-family: Verdana, Arial;
+    color: #666666;
+    border-color: #f1f1f1;
+	box-shadow:5px 5px rgb(211,211,211);
+}
+#wrapper{
+    width: 100%;
+    margin: auto;
+}
+section
+{    
+    padding:10px;
+}
+h2
+ {
+    background-image:url('../images/background.jpg');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    color: #ffffff;
+    font-family: Verdana, Arial;
+    line-height: 200%;
+    margin: 0 auto;
+    padding:10px;
+}
+h3
+{
+	padding-left:15px;
+    color: #3399CC;
+    font-family: Georgia, serif;
+}
+p
+{
+	padding-left:15px;
+}
+img 
+{
+    position : relative;
+    width:100%;
+    height:auto;
+}
+
+footer
+{
+    color: #666666;
+    font-family: Verdana, Arial;
+    font-style: italic;
+    text-align: center;
+    font-size: 70%;
+}
+#ab
+{
+	margin-top:10px;
+	padding:10px;
+}
+tr,td
+{
+	padding-left:15px;
+}
+.table 
+{
+    border-spacing: 0px;
+    width: 90%;
+
+}
+#abc1
+{
+height: 680px;
+float: left;
+background-color: #87CEFA;
+width: 20%;  
+}
+#abc2
+{
+height: 680px;
+float: left;
+width: 80%;
+}
+#row:after {
+    height:100%;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav{
+    text-decoration:none;
+    position : relative;
+    font-weight: bold;
+    background-color:#FFFFFF;
+}
+nav a {
+    text-decoration: none;
+    color:#000033 ;
+    padding-left:10px;
+    display: block;
+}
+nav a:focus, nav a:hover, nav a:active 
+{
+	color:white;
+}
+
+.table
+{
+	width:65%;
+}
+@media screen and (max-width: 600px) {
+    #abc1, #abc2  {
+        width: 100%;
+		height:40%;
+    }
+	#wrapper{
+    width: 100%;
+    margin: auto;
+}
+	
+}
